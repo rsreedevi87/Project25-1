@@ -14,10 +14,10 @@ class Paper {
   }
   display(){
     var pos =this.body.position;
-    
-    ellipseMode(CENTER);
+    translate(pos.x,pos.y);
+   // ellipseMode(CENTER);
     fill(255);
-    ellipse(pos.x, pos.y, this.radius);
+   // ellipse(pos.x, pos.y, this.radius);
     fill("white");
     stroke(255);
     strokeWeight(6);
